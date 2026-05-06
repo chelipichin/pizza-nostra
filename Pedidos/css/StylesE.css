@@ -1,18 +1,15 @@
-/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(to right, #f8f9fa, #e9ecef);
     color: #333;
 }
 
-/* HEADER */
 header {
     background: linear-gradient(135deg, #ffffff);
     color: rgb(0, 0, 0);
@@ -25,7 +22,6 @@ header h1 {
     font-size: 2.2em;
 }
 
-/* NAV */
 nav {
     background-color: #333;
     display: flex;
@@ -40,21 +36,19 @@ nav a {
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 8px;
-    transition: 0.3s;
 }
 
 nav a:hover {
     background-color: #f77f00;
 }
 
-/* TITULOS */
+
 h2 {
     text-align: center;
     margin: 25px 0;
     color: #d62828;
 }
 
-/* TABLA */
 table {
     width: 80%;
     margin: 20px auto;
@@ -81,7 +75,6 @@ tr:hover {
     background-color: #f1f1f1;
 }
 
-/* FORMULARIO */
 form {
     width: 320px;
     margin: 30px auto;
@@ -107,7 +100,6 @@ form select:focus {
     border-color: #d62828;
 }
 
-/* BOTON */
 button {
     margin-top: 10px;
     padding: 10px 20px;
@@ -116,39 +108,14 @@ button {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 button:hover {
     background-color: #a61c1c;
 }
 
-/* IMAGENES */
 img {
     width: 100px;
     border-radius: 8px;
 }
 
-/* FOOTER */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #333;
-    color: white;
-    margin-top: 30px;
-}
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
-
-    table {
-        width: 95%;
-    }
-
-    form {
-        width: 90%;
-    }
-}
