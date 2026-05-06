@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos - Pizza Nostra</title>
+    <link rel="stylesheet" href="css/StylesE.css">
+</head>
+
+<body>
+
+<header>
+    <h1> Pizza Nostra</h1>
+    <p>Gestión de Pedidos</p>
+</header>
+
+<nav>
+    <a href="../index.html">Inicio</a>
+    <a href="clientes.html">Clientes</a>
+    <a href="productos.html">Productos</a>
+    <a href="pedidos.html">Pedidos</a>
+    <a href="empleados.html">Empleados</a>
+</nav>
+
+<h2>Lista de Pedidos</h2>
+
+<table>
+    <tr>
+        <th>Fecha</th>
+        <th>Estado</th>
+        <th>Forma de Pago</th>
+    </tr>
+
+    <tr>
+        <td>06/05/2026</td>
+        <td>En preparación</td>
+        <td>Efectivo</td>
+    </tr>
+
+    <tr>
+        <td>05/05/2026</td>
+        <td>En camino</td>
+        <td>Tarjeta</td>
+    </tr>
+
+    <tr>
+        <td>04/05/2026</td>
+        <td>Entregado</td>
+        <td>Nequi</td>
+    </tr>
+</table>
+
+<h2>Registrar Pedido</h2>
+
+<form>
+    <input type="date" required><br><br>
+
+    <select required>
+        <option value="">Estado del pedido</option>
+        <option>En preparación</option>
+        <option>En camino</option>
+        <option>Entregado</option>
+    </select><br><br>
+
+    <select required>
+        <option value="">Forma de pago</option>
+        <option>Efectivo</option>
+        <option>Tarjeta</option>
+        <option>Nequi</option>
+        <option>Daviplata</option>
+    </select><br><br>
+
+    <button type="button">Guardar Pedido</button>
+</form>
+</body>
+</html>
